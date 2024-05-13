@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buat Pacar</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+        /* Center the button */
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50vh; /* This ensures the button is vertically centered */}
+        /* Center the h1 */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+    </style>
+    <script>
+        alert("Halooo tatan")
+        alert("Uda jadi pacar nih??")
+        alert("Aku bersyukurr banget dari kemarin masih mikir ini mimpi bukan sih")
+        alert("Sampe aku nekat buat ngelakuin semua ini")
+        alert("Tapi aku senengg bangettt")
+        alert("Bisa jadi pacar kamu, bisa jadi segalanya buat kamu mungkin??")
+        alert("Aku pengen jadi segalanya buat kamu kayak rumah dan dunia kamu taukk")
+        alert("Boyeh nda sayangg?")
+        alert("I will do everything for you bii")
+        alert("Wopyuuuu ayangggtuuu")
+        alert("Mwah mwahhhh")
+    </script>
+</head>
+<body>
+    <h1>Mau chat pacar kamu??</h1>
+
+    <div class="center">
+        <button onclick="redirectToWhatsApp()">Coba tekan ini</button>
+
+    <script>
+        function redirectToWhatsApp() {
+            // Replace '1234567890' with the phone number you want to redirect to
+            var phoneNumber = '628995097495';
+            // You can also include a message by appending &text=YourMessage to the URL
+            var message = 'Pgelud';
+            // Construct the WhatsApp URL
+            var whatsappURL = 'https://api.whatsapp.com/send?phone=' + phoneNumber + '&text=Pgelud' + encodeURIComponent(message);
+            // Redirect to WhatsApp
+            window.location.href = whatsappURL;
+        }
+    </script>
+</body>
+</html>
